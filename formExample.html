@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- formExample.html
+ assignment Example
+ Auggie Eagle-->
+<html lang="en">
+<head>
+	<title>Form Test</title>
+	<meta charset=“UTF-8”>
+</head>
+<body>
+	<h1>New Example</h1>
+	<p>Please fill this out</p>
+	<form action="https://example.com/something.php" method ="GET">
+		<label>Birth Year:</label>
+	<input type="text" name="byear" size="8" maxlength="4">
+		<br>
+		<label for="bmonth">Birth Month:</label>
+    <input type="text" name="bmonth" size="12" id="bmonth" >
+		<br>
+	<textarea rows="4" cols="60" name=excuse>Enter your excuse: </textarea>
+		<br>
+		<label>Stoplight color:</label>
+	<select name="stoplight">
+		<option value="R">Red</option>
+		<option value="Y">Yellow</option>
+		<option value="G">Green</option>
+	</select>
+	<br>
+
+	<label>What does that color mean?&nbsp;&nbsp;</label>
+	<br>
+	<label>&nbsp;go&nbsp;</label>
+	<input type="radio" value="go"><br>
+	<label>&nbsp;Stop&nbsp;</label>
+	<input type="radio" value="stop"><br>
+	<label>&nbsp;slow down&nbsp;</label>
+	<input type="radio" value="slow down">
+
+	<br>
+	<label>&nbsp;Next steps:&nbsp;</label><br>
+	<input type="checkbox" value="nextsteps">
+	<label>&nbsp;Im sorry&nbsp;</label><br>
+	<input type="checkbox" value="nextsteps">
+	<label>&nbsp;I wont do it again&nbsp;</label><br>
+	<input type="checkbox" value="nextsteps">
+	<label>&nbsp;ill do better&nbsp;</label>
+
+	<br>
+	<label>Password: </label>
+    <input type="password" name="pw" size="8">
+	<br>
+    <input type="submit" value="push me!">
+
+</form>
+</body>
+</html>
